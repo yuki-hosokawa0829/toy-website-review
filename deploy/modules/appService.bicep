@@ -8,7 +8,6 @@ param appServiceAppName string
 @allowed([
   'nonprod'
   'prod'
-  'test'
 ])
 param environmentType string
 

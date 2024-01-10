@@ -11,7 +11,6 @@ param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 @allowed([
   'nonprod'
   'prod'
-  'test'
 ])
 param environmentType string
 
